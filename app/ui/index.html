@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Number Idle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- InfiniNum Watermark System -->
+    <div id="infininum-watermark">Powered by InfiniNum Core</div>
+
+    <div class="container">
+        <h1>Infinite Number Idle</h1>
+        
+        <!-- Main Number Display -->
+        <div class="number-display" id="main-number">0</div>
+
+        <!-- Gameplay Buttons Layer -->
+        <div class="button-grid">
+            <button class="btn" id="btn-p1" onclick="handleButtonClick('plus_1')">+1</button>
+            <button class="btn" id="btn-p2" onclick="handleButtonClick('plus_2')">+2</button>
+            <button class="btn" id="btn-x2" onclick="handleButtonClick('x2')">x2</button>
+            <button class="btn hidden" id="btn-x3" onclick="handleButtonClick('x3')">x3</button>
+            <button class="btn hidden" id="btn-x5" onclick="handleButtonClick('x5')">x5</button>
+            <button class="btn hidden" id="btn-x10" onclick="handleButtonClick('x10')">x10</button>
+        </div>
+
+        <!-- Exponential Power Buttons -->
+        <div class="button-grid power-grid">
+            <button class="btn btn-pow hidden" id="btn-pow105" onclick="handleButtonClick('pow_1.05')">^1.05</button>
+            <button class="btn btn-pow hidden" id="btn-pow15" onclick="handleButtonClick('pow_1.5')">^1.5</button>
+            <button class="btn btn-pow hidden" id="btn-pow3" onclick="handleButtonClick('pow_3')">^3</button>
+            <button class="btn btn-pow hidden" id="btn-pow10" onclick="handleButtonClick('pow_10')">^10</button>
+        </div>
+
+        <!-- Prestige Tab - Hidden until 10 PP, then stays permanently -->
+        <div id="prestige-tab" class="prestige-zone hidden">
+            <h2>🌌 Cosmic Prestige Realm 🌌</h2>
+            <div class="stat-box">Prestige Points: <span id="pp-counter">0</span></div>
+            <button class="btn btn-prestige" id="prestige-trigger" onclick="triggerPrestige()">Force Prestige</button>
+        </div>
+    </div>
+
+    <script src="render.js"></script>
+</body>
+</html>

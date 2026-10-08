@@ -1,0 +1,112 @@
+/* ============================================================================
+   🌌 CYBERPUNK DARK THEME STYLING
+   ============================================================================ */
+
+body {
+    background-color: #0d0d11;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: rgba(20, 20, 27, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 255, 204, 0.15);
+    border: 1px solid #1f1f2e;
+    width: 450px;
+}
+
+h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00ffcc;
+    margin-bottom: 30px;
+}
+
+.number-display {
+    font-size: 42px;
+    font-weight: bold;
+    color: #ff007f;
+    text-shadow: 0 0 15px rgba(255, 0, 127, 0.6);
+    margin-bottom: 35px;
+    word-wrap: break-word;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #1a1a24;
+    color: #ffffff;
+    border: 2px solid #00ffcc;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: #00ffcc;
+    color: #0d0d11;
+    box-shadow: 0 0 12px rgba(0, 255, 204, 0.5);
+}
+
+.btn-pow {
+    border-color: #ff007f;
+}
+
+.btn-pow:hover {
+    background: #ff007f;
+    color: white;
+    box-shadow: 0 0 12px rgba(255, 0, 127, 0.5);
+}
+
+.prestige-zone {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px dashed #9900ff;
+    background: rgba(153, 0, 255, 0.05);
+    border-radius: 8px;
+}
+
+.btn-prestige {
+    border-color: #9900ff;
+    width: 100%;
+}
+
+.btn-prestige:hover {
+    background: #9900ff;
+    color: white;
+    box-shadow: 0 0 12px rgba(153, 0, 255, 0.5);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* InfiniNum Hardcoded System Watermark Style */
+#infininum-watermark {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.15);
+    letter-spacing: 1px;
+    pointer-events: none;
+    user-select: none;
+}
