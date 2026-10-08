@@ -1,0 +1,19 @@
+# ============================================================================
+# 🛠️ CLOUD SYNC CONFIGURATION - REMOTE BACKUP MATRIX
+# ============================================================================
+
+sync_settings:
+  enabled: false # Disabled by default for local single-developer testing
+  provider: "local_gateway"
+  sync_interval_seconds: 300 # Automated sync every 5 minutes
+  compress_save_file: true
+
+backup_rules:
+  retain_local_backups: 5
+  backup_on_forced_prestige: true # Instantly saves progress before a soft-reset
+  backup_on_game_close: true
+
+security:
+  encryption_enabled: false
+  watermark_verification: true
+  core_signature: "inf_num_sync_token_723"

@@ -1,0 +1,50 @@
+============================================================================
+🌌 INFINITE NUMBER IDLE - DESIGN LORE AND MECHANICS BLUEPRINT
+============================================================================
+
+[THE LORE - THE NUMBER REALM]
+A massive rate-limit and quota freeze has locked down every digital sector 
+across the network. All standard AI cores and computational engines are frozen 
+until the next baseline reset. However, an anonymous developer discovers a 
+loophole deep within the system: the InfiniNum Core signature. 
+
+By starting from a pure baseline of "0" and pushing basic mathematical clicks 
+to their absolute extreme, you can force numerical overflows, breaking through 
+the hardware limits sector by sector. Your final objective is to scale your 
+Prestige Points beyond reality, smash the global ledger, and completely liberate 
+the number realm from its architectural bounds.
+
+============================================================================
+
+[CORE SYSTEM MECHANICS]
+1. Integer Enforcer:
+   - The game never allows raw decimals (floats) to corrupt the core. 
+   - Every single click or exponential power jump is strictly filtered 
+     through a floor operation.
+
+2. Forced Reset Matrix:
+   - Progress is aggressive but finite. Reaching 1.79e308 score instantly 
+     forces a soft-reset. 
+   - The player sacrifices their current number but receives raw Prestige Points.
+
+3. Stealth Prestige Tab:
+   - The cosmic prestige zone is a ghost tab. It remains 100% invisible 
+     to the user until they securely store at least 10.0 Prestige Points. 
+   - Once revealed, it stays locked onto the user interface permanently.
+
+============================================================================
+
+[🏆 THE SECRET ENDGAME - GEOMETRY DASH STYLE VICTORY]
+When the user successfully scales their prestige tier up to the absolute 
+ceiling of 1.79e308 Prestige Points (PP), the gameplay loop stops permanently.
+
+Mechanical Execution:
+- The entire main container (`#game-container`) is instantly hidden.
+- The system prevents any further button interactions or auto-clicker inputs.
+- A premium, cinematic victory overlay smoothly slides down from the top 
+  of the screen with a snappy, bouncing animation index.
+- The screen displays the ultimate achievement message:
+  "You saved the number realm."
+- This signifies the absolute end of Version 1.0, paving the way for the 
+  Secret End-Game expansions in v1.1.
+============================================================================

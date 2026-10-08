@@ -1,0 +1,48 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "InfiniteNumberIdleSaveSchema",
+    "description": "Validation schema for Infinite-Number-Idle player save states.",
+    "type": "object",
+    "required": [
+        "player_id",
+        "infininum_score",
+        "prestige_points",
+        "prestige_count",
+        "prestige_tab_unlocked",
+        "unlocked_milestones"
+    ],
+    "properties": {
+        "player_id": {
+            "type": "string",
+            "description": "Unique identifier for the local player profile."
+        },
+        "infininum_score": {
+            "type": "object",
+            "description": "The current core number packed into the InfiniNum structure.",
+            "required": ["base", "exponent", "layer"],
+            "properties": {
+                "base": { "type": "number" },
+                "exponent": { "type": "number" },
+                "layer": { "type": "number" }
+            }
+        },
+        "prestige_points": {
+            "type": "number",
+            "description": "Current available Prestige Points. Maximum limit scales up to ee308."
+        },
+        "prestige_count": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total number of times forced or manual prestige has been triggered."
+        },
+        "prestige_tab_unlocked": {
+            "type": "boolean",
+            "description": "Permanently set to true once prestige_points hits 10.0."
+        },
+        "unlocked_milestones": {
+            "type": "array",
+            "items": { "type": "integer" },
+            "description": "List of unlocked motivational achievement IDs."
+        }
+    }
+}
