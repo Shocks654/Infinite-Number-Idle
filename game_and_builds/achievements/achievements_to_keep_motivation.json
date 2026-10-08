@@ -1,0 +1,53 @@
+{
+    "system_name": "Infinite Number Idle - Core Motivation Matrix",
+    "version": "1.0.0",
+    "achievements": [
+        {
+            "id": 1,
+            "requirement_score": "1000",
+            "reward": "Unlock x5 Button",
+            "motivation_quote": "The threshold is broken. Efficiency is scaling up."
+        },
+        {
+            "id": 2,
+            "requirement_score": "1000000",
+            "motivation_quote": "A million chaos caused by buttons"
+        },
+        {
+            "id": 3,
+            "requirement_score": "1e9",
+            "reward": "Unlock x10 button",
+            "motivation_quote": "A billion units reached. The engine is hungry for more."
+        },
+        {
+            "id": 4,
+            "requirement_score": "1e100",
+            "reward": "Unlock ^1.05 Button",
+            "motivation_quote": "Googol achieved! Something much better has been unlocked."
+        },
+        {
+            "id": 5,
+            "requirement_score": "1e105",
+            "reward": "Unlock ^1.5 Button",
+            "motivation_quote": "Exponential growth is taking over reality."
+        },
+        {
+            "id": 6,
+            "requirement_score": "1e120",
+            "reward": "Unlock ^3 Special Button",
+            "motivation_quote": "The numbers are starting to warp the interface."
+        },
+        {
+            "id": 7,
+            "requirement_score": "2e308",
+            "reward": "Unlock OP Button (^10)",
+            "motivation_quote": "Absolute power corrupts absolute mathematics."
+        },
+        {
+            "id": 8,
+            "requirement_prestige_points": "1.79e308",
+            "reward": "Absolute Game End",
+            "motivation_quote": "You saved the number realm. Version 1.0 Complete."
+        }
+    ]
+}
