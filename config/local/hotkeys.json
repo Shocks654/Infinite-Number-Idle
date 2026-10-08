@@ -1,0 +1,18 @@
+{
+    "system_name": "Infinite Number Idle - Hotkey Matrix",
+    "version": "1.0.0",
+    "hotkeys": {
+        "press_plus_one": "0",
+        "press_plus_two": "1",
+        "press_x2": "2",
+        "press_x3": "3",
+        "press_x5": "4",
+        "press_x10": "5",
+        "press_^1.05": "6",
+        "press_^1.5": "7",
+        "press_^3": "8",
+        "press_^10": "9",
+        "trigger_forced_prestige": "P",
+        "toggle_ui_visibility": "H"
+    }
+}

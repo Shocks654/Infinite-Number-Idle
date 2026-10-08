@@ -1,0 +1,19 @@
+# ============================================================================
+# 🛠️ SYSTEM CONFIGURATION - GLOBAL GAME AND RENDERING SETTINGS
+# ============================================================================
+
+video_settings:
+  target_fps: 60
+  screen_mode: "dark_mode_cyberpunk"
+  resolution_scaling: "auto"
+
+gameplay_settings:
+  allow_float_flooring: true
+  enforce_forced_prestige: true
+  forced_prestige_threshold: "1.79e308"
+  max_prestige_point_limit: "ee308"
+
+ui_settings:
+  watermark_enabled: true
+  watermark_text: "Powered by InfiniNum Core"
+  hide_prestige_tab_below_pp: 10.0
